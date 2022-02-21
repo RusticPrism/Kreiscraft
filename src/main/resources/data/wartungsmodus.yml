@@ -1,0 +1,10 @@
+#-------------------------------------------#
+#             WartungsModus                 #
+#                                           #
+#   source: https://github.com/rusticprism  #
+#   discord: discord.link/kreiscraft        #
+#                                           #
+#             WartungsModus                 #
+#-------------------------------------------#
+Enabled: false
+Message: "§7=================================== \n \n§c>> Wartung << \n§7Kreiscraft führt derzeit Wartungsarbeiten durch... \n§7Kreiscraft bittet um dein Verständniss! \n §7\u25a1 §bKreiscraft §7\u25a1 \n \n §7==================================="

@@ -1,0 +1,94 @@
+name: Kreiscraft
+version: '${project.version}'
+main: de.rusticprism.kreiscraft.commands.Kreiscraft
+api-version: 1.17
+authors: [ RusticPrism ]
+description: Plugin für den KreicraftServer
+commands:
+  build:
+    description: Get the Permission to build in the Hub!
+    permission: kreiscraft.lobby.command.build
+  discord:
+    description: See our Discord!
+    permission: kreiscraft.lobby.command.discord
+    aliases:
+      - dc
+  erklarung:
+    description: See the 'Erklärung'!
+    permission: kreiscraft.lobby.command.erklarung
+  hub:
+    description: Go to the Lobby!
+    permission: kreiscraft.lobby.command.lobby
+    aliases:
+      - l
+      - lobby
+  item:
+    description: Give youreself Items!
+    permission: kreiscraft.command.item
+    aliases:
+      - i
+  ping:
+    description: Check you´re Ping!
+    permission: kreiscraft.command.ping
+  position:
+    description: Set Waypoints!
+    permission: kreiscraft.command.position
+    aliases:
+      - pos
+  reboot:
+    description: Restart the Server!
+    permission: kreiscraft.command.reboot
+  rules:
+    description: See the Rules!
+    permission: kreiscraft.command.rules
+  skull:
+    description: Get Player Skulls
+    permission: kreiscraft.command.skull
+    aliases:
+      - kopf
+  spawnmob:
+    description: Spawn some Mobs!
+    permission: kreiscraft.command.spawnmob
+    aliases:
+      - sm
+  sethub:
+    description: Set the Lobby Location!
+    permission: kreiscraft.lobby.command.sethub
+    aliases:
+      - setl
+      - setlobby
+  sudo:
+    description: Make other Players send Messages or Commands!
+    permission: kreiscraft.command.sudo
+  weather:
+    description: Set the Weather!
+    permission: kreiscraft.command.weather
+  world:
+    description: Switch to other Worlds!
+    permission: kreiscraft.command.world
+  setworldspawn:
+    description: Set the Worldspawn!
+    permission: kreiscraft.command.setworldspawn
+    aliases:
+      - sws
+  bugreport:
+    description: Report Bugs!
+    aliases:
+      - br
+  tps:
+    description: Get Server Tps!
+  uuid:
+    description: Get Players UUIDs!
+    permission: kreiscraft.command.uuid
+  ip:
+    description: Get Players Ips!
+    permission: kreiscraft.command.ip
+  wartung:
+    description: Setze den Wartungsmodus!
+    permission: kreiscraft.command.wartung
+  status:
+    description: Setze deinen Status!
+    permission: kreiscraft.command.status
+  portal:
+    description: Get Nether or Overworld Koordinates
+    permission: kreiscraf.command.portal
